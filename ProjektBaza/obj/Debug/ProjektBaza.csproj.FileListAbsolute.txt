@@ -15,3 +15,46 @@ D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.csproj.GenerateRes
 D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.csproj.CoreCompileInputs.cache
 D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.exe
 D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.pdb
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\ProjektBaza.exe.config
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\ProjektBaza.exe
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\ProjektBaza.pdb
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.csproj.AssemblyReference.cache
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\LoginWindow.g.cs
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\MainWindow.g.cs
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\App.g.cs
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza_MarkupCompile.cache
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza_MarkupCompile.lref
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\LoginWindow.baml
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\MainWindow.baml
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.g.resources
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.Properties.Resources.resources
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.csproj.GenerateResource.cache
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.csproj.CoreCompileInputs.cache
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.exe
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.pdb
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\Google.Protobuf.dll
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\MySql.Data.dll
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Buffers.dll
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.IO.Pipelines.dll
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Memory.dll
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\Google.Protobuf.pdb
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\Google.Protobuf.xml
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\MySql.Data.xml
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Buffers.xml
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.IO.Pipelines.xml
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Memory.xml
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.csproj.CopyComplete

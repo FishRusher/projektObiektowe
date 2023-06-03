@@ -29,6 +29,8 @@
             <TextBlock Text="login:" Grid.Column="0" FontSize="20" VerticalAlignment="Center" Margin="10,0,10,0" Grid.Row="1"></TextBlock>
             <TextBlock Text="hasło:" Grid.Column="0" FontSize="20" VerticalAlignment="Center" Margin="10,0,10,0" Grid.Row="2"></TextBlock>
 
+            <TextBlock Name="IncorrectLoginMessage" Visibility="Hidden" Text="Niepoprawne logowanie" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Red" FontSize="15"></TextBlock>
+
             <Button Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" Content="Zaloguj" Height="40" Margin="20,0,20,0" Click="Button_Click"></Button>
         </Grid>
     </Grid>
