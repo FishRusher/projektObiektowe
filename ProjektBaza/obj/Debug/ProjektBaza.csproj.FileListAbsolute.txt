@@ -1,0 +1,17 @@
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\bin\Debug\ProjektBaza.exe.config
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\bin\Debug\ProjektBaza.exe
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\bin\Debug\ProjektBaza.pdb
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.csproj.AssemblyReference.cache
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\LoginWindow.g.cs
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\MainWindow.g.cs
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\App.g.cs
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza_MarkupCompile.cache
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza_MarkupCompile.lref
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\LoginWindow.baml
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\MainWindow.baml
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.g.resources
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.Properties.Resources.resources
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.csproj.GenerateResource.cache
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.csproj.CoreCompileInputs.cache
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.exe
+D:\Rupert Rybka\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.pdb
