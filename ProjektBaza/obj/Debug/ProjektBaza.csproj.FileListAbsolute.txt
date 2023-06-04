@@ -58,3 +58,5 @@ C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Numerics
 C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\obj\Debug\ProjektBaza.csproj.CopyComplete
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Drawing.Common.dll
+C:\Users\ruper\OneDrive\Pulpit\ProjektBaza\ProjektBaza\bin\Debug\System.Drawing.Common.xml

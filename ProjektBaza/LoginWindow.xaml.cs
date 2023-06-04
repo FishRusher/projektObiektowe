@@ -40,6 +40,9 @@ namespace ProjektBaza
             if (reader.HasRows)
             {
                 IncorrectLoginMessage.Visibility = Visibility.Hidden;
+                var w = new MainWindow(login);
+                w.Show();
+                this.Close();
             }
             else
             {
