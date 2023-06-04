@@ -1,5 +1,4 @@
 ﻿using MySql.Data.MySqlClient;
-using Org.BouncyCastle.Asn1.X509;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -9,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace ProjektBaza
 {
@@ -53,9 +53,9 @@ namespace ProjektBaza
                         {
                             if (input.Prop != "Id")
                             {
-                                query += input.Prop.ToLower() + " = " + input.Text + ",";
+                                query += input.Prop.ToLower() + " = " + input.Text.Replace(',','.') + ",";
                             }
-                            prop.SetValue(Target, float.Parse(input.Text, CultureInfo.InvariantCulture.NumberFormat));
+                            prop.SetValue(Target, float.Parse(input.Text));
                             break;
                         }
                     case "Int32":
@@ -78,6 +78,8 @@ namespace ProjektBaza
             var command = new MySqlCommand(query, connection);
             command.ExecuteNonQuery();
             IsEnabled = false;
+
+            MessageBox.Show("Zapisano zmiany");
         }
 
         public void StartObserving()
@@ -99,7 +101,8 @@ namespace ProjektBaza
     {
         private Product Target;
         private List<string> Props;
-        public DataRow(ref Product target)
+        private MainWindow MW;
+        public DataRow(ref Product target, MainWindow mw)
         {
             Target = target;
             Props = new List<string>();
@@ -108,6 +111,7 @@ namespace ProjektBaza
                 if (pInf.Name == "ImageName" || pInf.Name == "Id") continue;
                 Props.Add(pInf.Name);
             }
+            MW = mw;
         }
 
         internal void Render(Grid grid, int height)
@@ -147,6 +151,29 @@ namespace ProjektBaza
             grid.Children.Add(submit);
             Grid.SetRow(submit, i);
             Grid.SetColumn(submit, j);
+
+            var deleteButton = new Button();
+            deleteButton.Content = "X";
+            deleteButton.Background = Brushes.Red;
+            deleteButton.Tag = Target.Id;
+            deleteButton.Margin = new Thickness(80,30,80,30);
+            Grid.SetRow(deleteButton, i);
+            Grid.SetColumn(deleteButton, ++j);
+            grid.Children.Add(deleteButton);
+
+            deleteButton.Click += DeleteButton_Click;
+        }
+
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            var b = sender as Button;
+            var connection = new MySqlConnection("datasource=127.0.0.1;port=3306;username=root;password=;database=projekt_baza");
+            connection.Open();
+            var command = new MySqlCommand("delete from products where id = " + b.Tag + ";", connection);
+            command.ExecuteNonQuery();
+
+            MW.products.Remove(Target);
+            MW.RenderRows();
         }
     }
 }

@@ -37,8 +37,9 @@ namespace ProjektBaza
             RenderRows();
         }
 
-        private void RenderRows()
+        public void RenderRows()
         {
+            products.RemoveAll(p => p == null);
             MainGrid.Children.Clear();
             MainGrid.RowDefinitions.Clear();
             MainGrid.ColumnDefinitions.Clear();
@@ -50,7 +51,7 @@ namespace ProjektBaza
             for (int i = 0; i < products.Count; i++)
             {
                 var p = products[i];
-                var row = new DataRow(ref p);
+                var row = new DataRow(ref p, this);
                 row.Render(MainGrid, ROW_HEIGHT);
             }
 
@@ -71,7 +72,16 @@ namespace ProjektBaza
         private void Add_Product(object sender, RoutedEventArgs e)
         {
             products.Add(new Product());
+            AppendProductToDataBase();
             RenderRows();
+        }
+
+        private void AppendProductToDataBase()
+        {
+            var connection = new MySqlConnection("datasource=127.0.0.1;port=3306;username=root;password=;database=projekt_baza");
+            connection.Open();
+            var command = new MySqlCommand("insert into products values('','',0,0,'','');", connection);
+            command.ExecuteNonQuery();
         }
 
         private void DownloadData()
@@ -89,7 +99,7 @@ namespace ProjektBaza
                     {
                         Id = Convert.ToInt32(reader.GetString(0)),
                         Name = reader.GetString(1),
-                        Cost = float.Parse(reader.GetString(2), CultureInfo.InvariantCulture.NumberFormat),
+                        Cost = float.Parse(reader.GetString(2)),
                         Tax = Convert.ToInt32(reader.GetString(3)),
                         Description = reader.GetString(4),
                         ImageName = reader.GetString(5)
